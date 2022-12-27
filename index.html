@@ -5,23 +5,29 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>PureHealth Profiler 👨🏻‍⚕️</title>
+	<!-- <link rel="stylesheet" href="index.css"> -->
+	<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
 	<!-- No CSS -- Only html for now -->
 	<!-- A heading  -->
-	<h1>Clinician Profiler</h1>
-	<h3>A PureHealth Project</h3>
-	<!-- Input 1  -->
-	<form>
-		<label for="username">Username:</label><br>
-		<input type="text" id="username" name="username" value="Amalbrei"><br>
-	<!-- Input 2  -->
-	<label for="password">Password</label><br>
-	<input type="text" id="password" name="password" value="password"><br>
-	<!-- Button -- saying submit  -->
-	<input type="submit" value="Login">
-	<input type="checkbox" id="remember" name="remember" value="recall">
-	<label for="remember">Remember me</label>
-	</form>
+	<div class="text-center">
+		<h1 class="font-bold" id="id1">Clinician Profiler</h1>
+		<h3 class="header" id="2">A PureHealth Project</h3>
+		<div class="content-center">
+			<form>
+			<!-- Input 1  -->
+				<label for="username">Username:</label><br>
+				<input type="text" id="username" placeholder="Amalbrei"><br>
+			<!-- Input 2  -->
+				<label for="password">Password:</label><br>
+				<input type="text" id="password" placeholder="password"><br>
+				<input type="checkbox" id="remember" value="recall">
+				<label for="remember">Remember me</label>
+		</div>
+			<!-- Button -- saying submit  -->
+			<button>Login</button>
+		</form>
+	</div>
 </body>
 </html>
